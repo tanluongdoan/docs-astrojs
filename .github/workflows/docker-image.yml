@@ -12,12 +12,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Get version from package.json
-        id: get_version
-        run: |
-          VERSION=$(jq -r .version package.json)
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
-
       - name: Build the Docker image
         run: |
           docker login -u tanluongdoan -p ${{ secrets.DOCKER_HUB_TOKEN }}
