@@ -1,5 +1,6 @@
 services:
   app:
+    container_name: docs-astrojs
     image: tanluongdoan/docs-astrojs:v5-2025-01-24
     ports:
       - "4500:4321"
