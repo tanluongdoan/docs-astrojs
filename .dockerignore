@@ -1,0 +1,33 @@
+# Ignore node_modules
+node_modules
+
+# Ignore build artifacts
+dist
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+# .env
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore git folder
+.git
+.gitignore
+
+# Ignore other temporary files
+*.tmp
+
+dist 
+.astro 
+.vercel
+
+# .dockerignore 
+README.md
+# package-lock.json
+
+
+.env.development
